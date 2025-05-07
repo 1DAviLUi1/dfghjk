@@ -21,7 +21,7 @@ nav{
     background-color: #276100;
     max-height: 50px;
     position: relative;
-    top: 85%;
+    top: 25%;
 }
 
 nav ul {
@@ -40,12 +40,40 @@ nav ul li {
 }
 .ch{
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 3.25px;
     -webkit-text-stroke-color: black;
 }
 main .ch{
     text-align: center;
     position: relative;
     top: 25%;
+}
+header .ch{
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+footer .ch{
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+.logoccm{
+    height: 50%;
+    position: relative;
+    bottom: 23.5%;
+}
+.login{
+    height: 20%;
+    position: relative;
+    bottom: 30.5%;    
+    left: 75%;
+}
+.logout{
+    height: 20%;
+    position: relative;
+    bottom: 30.5%;    
+    left: 55%;
 }
